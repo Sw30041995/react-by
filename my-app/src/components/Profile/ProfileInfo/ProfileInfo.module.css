@@ -1,0 +1,15 @@
+.panorama {
+    width: 700px;
+    height: 200px;
+    margin: -20px -20px 0 -20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+textarea {
+    resize: none;
+}

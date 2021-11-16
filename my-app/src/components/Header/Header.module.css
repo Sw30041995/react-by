@@ -1,0 +1,10 @@
+.header {
+    grid-area: h;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.logo {
+    height: 20px;
+    width: 25px;
+}

@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.item a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: rgb(15, 232, 240);
+}
+
