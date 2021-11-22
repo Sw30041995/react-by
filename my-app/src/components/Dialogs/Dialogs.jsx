@@ -11,6 +11,14 @@ const Dialogs = (props) => {
         { id: 5, name: 'Evgeniy'}
     ];
 
+    let messagesData = [
+        { message: 'Hi' },
+        { message: 'Yo' },
+        { message: 'Hello my friend' },
+        { message: 'heeeey' },
+        { message: 'I learn React and JS' },
+    ];
+
     return (
       <div className={style.dialogs}>
           <div className={style.dialogsItems}>
