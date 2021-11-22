@@ -12,11 +12,11 @@ const Dialogs = (props) => {
     ];
 
     let messagesData = [
-        { message: 'Hi' },
-        { message: 'Yo' },
-        { message: 'Hello my friend' },
-        { message: 'heeeey' },
-        { message: 'I learn React and JS' },
+        { id: 1, message: 'Hi' },
+        { id: 2, message: 'Yo' },
+        { id: 3, message: 'Hello my friend' },
+        { id: 4, message: 'heeeey' },
+        { id: 5, message: 'I learn React and JS' },
     ];
 
     return (
