@@ -29,11 +29,11 @@ const Dialogs = (props) => {
               <DialogItem name={dialogsData[4].name} id={dialogsData[4].id} />
           </div>
           <div className={style.messages}>
-              <Message message='Hi' />
-              <Message message='Yo' />
-              <Message message='Itka itka' />
-              <Message message='Hello my friend' />
-              <Message message='heeeey' />
+              <Message message={messagesData[0].message} />
+              <Message message={messagesData[1].message} />
+              <Message message={messagesData[2].message} />
+              <Message message={messagesData[3].message} />
+              <Message message={messagesData[4].message} />
           </div>
       </div>
     );
