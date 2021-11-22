@@ -8,17 +8,17 @@ const Dialogs = (props) => {
         { id: 2, name: 'Yaroslav'},
         { id: 3, name: 'Alexey'},
         { id: 4, name: 'Sergey'},
-        { id: 5, name: 'Evgeniy'},
+        { id: 5, name: 'Evgeniy'}
     ];
 
     return (
       <div className={style.dialogs}>
           <div className={style.dialogsItems}>
-              <DialogItem name='Ivan' id='1' />
-              <DialogItem name='Yaroslav' id='2' />
-              <DialogItem name='Alexey' id='3' />
-              <DialogItem name='Sergey' id='4' />
-              <DialogItem name='Evgeniy' id='5' />
+              <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
+              <DialogItem name={dialogsData[1].name} id={dialogsData[1].id} />
+              <DialogItem name={dialogsData[2].name} id={dialogsData[2].id} />
+              <DialogItem name={dialogsData[3].name} id={dialogsData[3].id} />
+              <DialogItem name={dialogsData[4].name} id={dialogsData[4].id} />
           </div>
           <div className={style.messages}>
               <Message message='Hi' />
