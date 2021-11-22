@@ -18,8 +18,8 @@ const Dialogs = (props) => {
         {id: 5, message: 'I learn React and JS'},
     ];
 
-    let dialogsElements = dialogsData.map(dialog => <DialogItem name={dialogsData.name} id={dialogsData.id} />);
-    let messagesElements = messagesData.map(message => <Message message={messagesData.message} />);
+    let dialogsElements = dialogsData.map(dialog => <DialogItem name={dialog.name} id={dialog.id} />);
+    let messagesElements = messagesData.map(message => <Message message={message.message} />);
 
     return (
         <div className={style.dialogs}>
