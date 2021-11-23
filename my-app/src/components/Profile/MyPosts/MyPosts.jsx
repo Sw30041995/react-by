@@ -13,7 +13,7 @@ const MyPosts = (props) => {
                     <button>Post</button>
                 </div>
             </div>
-            {postsElement}
+            {props.postsElements}
         </div>
     );
 }

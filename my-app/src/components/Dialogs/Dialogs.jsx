@@ -10,6 +10,7 @@ const Dialogs = (props) => {
         {id: 4, name: 'Sergey'},
         {id: 5, name: 'Evgeniy'}
     ];
+
     let messagesData = [
         {id: 1, message: 'Hi'},
         {id: 2, message: 'Yo'},
