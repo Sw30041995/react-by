@@ -4,10 +4,11 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import Post from "./MyPosts/Post/Post";
 
 const Profile = (props) => {
+    let dialogsElements = props.state.postsData.map(post => <Post message={post.message} likesCount={post.likesCount} />)
     return (
         <div className={style.content}>
             <ProfileInfo />
-            <MyPosts postsData={props.postsData} />
+            {dialogsElements}
         </div>
     );
 }
